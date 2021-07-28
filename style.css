@@ -1,0 +1,117 @@
+body{
+    background-image: url(intro.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment:fixed;
+    margin:0px;   
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    padding-top: 6px;
+    padding-bottom: 19px;
+    padding-right: 19px;
+    padding-left: 19px;
+    left: -7%;
+    right: 0%;
+    top: 0%;
+    border: 2px groove khaki;
+}
+
+button{
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 50px;
+    background-color: white;
+    border: transparent;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.welcome{
+    font-size: 35px;
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+    color: rgb(150, 130, 66);
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 10px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    background-color: white;
+    border-style:ridge;
+    color: rgb(150, 130, 66);
+    text-align: center;
+
+  }
+
+  i{
+      padding: 5px 30px 5px 0px;
+      margin-left: 100px;
+      margin-right: 100px;
+      font-size: 25px;
+
+  }
+ 
+
+
+@media only screen and (max-width:376px) and (max-height: 668px) {
+
+    body{
+        background-image: url(intro.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        margin:0px;   
+        
+    }
+
+    header{
+        
+        display: inline;
+        padding-left: 100px;
+        position:absolute;
+        padding-top: 80px;
+        width: 294px;
+        height: 460px;
+        padding-bottom: 77px;
+    } 
+
+    img{
+        position: absolute;
+        top:0%;
+        left: 120px;
+    }
+    
+
+    button{
+        display: inline;
+        margin-right: 80px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+.welcome{
+    display: none;
+}
+
+    .footer{
+        height: 70px;
+        width: 385px;
+    }
+    
+    i{
+        margin: 15px;
+
+    
+    }
+    
+}

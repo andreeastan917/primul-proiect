@@ -1,0 +1,158 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    padding-top: 6px;
+    padding-bottom: 19px;
+    padding-right: 19px;
+    padding-left: 19px;
+    left: -7%;
+    right: 0%;
+    top: 0%;
+    border: 2px groove khaki;
+}
+
+button{
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 50px;
+    background-color: white;
+    border: transparent;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+    background-image: url(restaurant.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment:fixed;
+    margin:0px;
+}
+
+
+input{
+    width: 130px;
+    display: block;
+    font-family: 'Spartan', sans-serif;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: transparent;
+
+}
+
+.container{
+    font-family: Palatino, URW Palladio L, serif;
+    text-align: center;
+    color: rgb(14, 1, 1);
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 240px;
+    width: 600px;
+    font-size: 20px;
+    font-weight:900;
+    
+}
+
+#reservation-h{
+    background-color: rgba(240, 209, 107, 0.623);
+}
+
+#reservation-p{
+    background-color: rgba(240, 209, 107, 0.623);
+}
+.formular{
+    background-color: rgba(22, 22, 22, 0.555);
+   padding-top: 10px;
+   align-items: center;
+   border-radius: 5px;
+
+
+    
+}
+.label{
+    color: rgb(240, 209, 107);
+}
+
+.butonreservation{
+    border-radius: 5%;
+    background-color: black;
+    color: rgb(240, 209, 107);
+    margin-right: 60px;
+    padding: 10px;
+    
+}
+
+
+
+@media only screen and (max-width:376px){
+    header{
+        display: inline;
+        padding-left: 100px;
+        position:absolute;
+        padding-top: 80px;
+        width: 294px;
+    } 
+
+    img{
+        position: absolute;
+        top:0%;
+        left: 120px;
+    }
+    
+
+    button{
+        display: inline;
+        margin-right: 80px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .container{
+        padding-top:300px;
+        padding-left: 30px;
+        text-align: left;
+        width: 330px;
+        margin-top: 150px;
+        margin-bottom: 70px;
+        padding-right: 0px;
+    
+}
+
+#reservation-h{
+    margin-top: 150px;
+}
+    .formular{
+        max-width: 330px;
+    }
+
+    input{
+        width: 250px;
+        padding: 3px;
+        margin-left: 30px;
+    }
+
+    .butonreservation{
+        margin-left: 90px;
+    }
+
+    .label{
+        padding-left: 30px;
+    }
+
+    
+
+
+}
+
+
